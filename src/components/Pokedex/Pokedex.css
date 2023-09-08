@@ -1,0 +1,8 @@
+.pokedex-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    letter-spacing: 5px;
+}
