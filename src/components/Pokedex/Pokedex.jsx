@@ -12,7 +12,6 @@ function Pokedex() {
     return (
         <>
         <div className="pokedex-main-div">
-            <h1>Pokedex</h1>
             <Search/>
         </div>
         <PokemonList/>
