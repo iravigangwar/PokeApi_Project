@@ -5,11 +5,10 @@ function App() {
 
 
   return (
-    <div className='logo'>
-      <Link to="/"><h1>Pokedex</h1></Link>
-      <div className='customRoots'><CustomRoutes/></div>
-      
-    </div>
+    <>
+      <Link to='/'><h1 className='text-5xl bg-black bg-opacity-90 p-6 text-white text-center'>Pokemon</h1></Link>
+        <CustomRoutes/>
+    </>
     
   )
 }

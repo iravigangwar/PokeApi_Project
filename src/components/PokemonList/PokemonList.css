@@ -1,13 +1,30 @@
 .pokemon-list-wrapper{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5px;
-
-}
-.pokimon-wrapper{
-    display: flex;
+    height: fit-content;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-
+    align-items: center;
+    gap: 5px;
+}
+.btns{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5px;
+    gap: 50px;
+    font-size: 30px;
+    padding: 10px 30px;
+    font-weight: 800;
+}
+.btnss{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btnss:hover{
+    background-color: black;
+    box-shadow: red 10px 0px 70px;
 }

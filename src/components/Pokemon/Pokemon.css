@@ -1,5 +1,22 @@
 .pokemon{
-    flex-basis: 33%;
-    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(84, 84, 84, 0.718);
+    height: 317px;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.pokemon:hover{
+    background-color: #e8dfdfa3;
+    box-shadow: red 10px 0px 300px;
+}
+img{
+    height: 100%;
+    width: 80%;
 
 }

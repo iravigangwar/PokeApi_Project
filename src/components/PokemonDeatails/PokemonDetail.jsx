@@ -28,12 +28,11 @@ return (
     
     <div>
         <div className="pokemon-name">Name: {pokemon.name}</div>
+        <div><img src={pokemon.image} alt="" /></div>
         <div className="pokemon-image" src={pokemon.image} alt="image-not-found"></div>
         <div className="pokemon-height">Height: {pokemon.height}</div>
         <div className="pokemon-weight">Weight: {pokemon.weight}</div>
-        <div className="pokemon-types"> Types: 
-            {pokemon.types && pokemon.types.map((t)=><div key={t}>{t}</div>)}
-        </div>
+        <div className="pokemon-types"> Types:{pokemon.types && pokemon.types.map((t)=><div key={t}>{t}</div>)}</div>
     </div>
 )
 
